@@ -1,0 +1,212 @@
+/* Main App Styles */
+.App {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e9f2 100%);
+  min-height: 100vh;
+  color: #334155;
+  padding: 20px;
+}
+
+/* Component Container Styles */
+.component-container {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  margin-bottom: 40px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.component-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* Section Headers */
+h2 {
+  color: #1e3a8a;
+  font-weight: 600;
+  padding: 15px 0;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 4px;
+  background: linear-gradient(90deg, #8884d8, #82ca9d);
+  border-radius: 4px;
+}
+
+h3 {
+  color: #3b5de7;
+  font-weight: 500;
+  margin: 25px 0 15px;
+}
+
+h4 {
+  color: #5d7290;
+  font-weight: 500;
+}
+
+/* Analysis Explanation Specific */
+.data-description, 
+.model-comparison, 
+.confusion-matrix-explanation, 
+.clinical-implications {
+  padding: 20px 30px;
+  margin-bottom: 25px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.explanation-card {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+  border-left: 5px solid #8884d8;
+}
+
+.metrics-comparison, 
+.matrix-comparison {
+  background-color: #f0f4f8;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.important-note {
+  background-color: #fff8e1;
+  border-left: 4px solid #ffc107;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 0 8px 8px 0;
+}
+
+/* Model Comparison Styles */
+.recharts-wrapper {
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table td, table th {
+  border: 1px solid #e2e8f0;
+  padding: 12px 18px;
+  text-align: center;
+}
+
+table tr:first-child td, table tr:first-child th {
+  background-color: #f1f5f9;
+  font-weight: 600;
+}
+
+/* Gauge Charts Styles */
+.gauge-container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.gauge-charts-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.gauge-chart {
+  transition: transform 0.2s ease;
+}
+
+.gauge-chart:hover {
+  transform: scale(1.03);
+}
+
+/* 3D Chart Styles */
+.chart-3d-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 30px auto;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .gauge-charts-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .component-container {
+    padding: 15px;
+  }
+}
+
+/* Animation for chart loading */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease forwards;
+}
+
+/* Enhanced list styling */
+ul {
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+ul li {
+  position: relative;
+  padding: 8px 0 8px 25px;
+  line-height: 1.5;
+}
+
+ul li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #8884d8;
+  font-size: 1.2em;
+  line-height: 1.2;
+}
+
+/* Loading indicator */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  font-size: 18px;
+  color: #5d7290;
+}
+
+.loading::after {
+  content: '...';
+  animation: dots 1.5s infinite;
+}
+
+@keyframes dots {
+  0%, 20% { content: '.'; }
+  40% { content: '..'; }
+  60%, 100% { content: '...'; }
+}

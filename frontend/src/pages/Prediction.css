@@ -1,0 +1,458 @@
+/* Prediction.css - Enhanced styling for Chronic Kidney Disease Diagnostic Tool */
+
+/* Main container styling with center alignment */
+.diagnostic-page {
+    background-color: #f0f5ff;
+    background-image: linear-gradient(to bottom right, #f0f5ff, #fff);
+    min-height: 100vh;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  /* Header styling */
+  .diagnostic-page h2 {
+    color: #1e3a8a;
+    font-weight: 700;
+    padding-bottom: 16px;
+    margin-bottom: 2.5rem;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .diagnostic-page h2:after {
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #3b82f6, transparent);
+    bottom: 0;
+    left: 15%;
+  }
+  
+  /* Form container - centered with auto margins */
+  .diagnostic-page .max-w-4xl {
+    box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1), 0 10px 20px -10px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 0;
+  }
+  
+  /* Form styling */
+  form {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Form groups - ensure full width with increased spacing */
+  .grid {
+    gap: 2.5rem; /* Increased spacing between form rows */
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    row-gap: 2.5rem; /* Vertical spacing */
+    column-gap: 2rem; /* Horizontal spacing */
+  }
+  
+  /* Individual form field container */
+  .grid > div {
+    position: relative;
+    margin-bottom: 1.5rem; /* Add space between form fields */
+    background-color: #f9fafb;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid #f1f5f9;
+  }
+  
+  .grid > div:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-color: #e2e8f0;
+  }
+  
+  /* Labels */
+  label {
+    color: #1e40af;
+    font-size: 0.925rem;
+    margin-bottom: 0.75rem;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.025em;
+  }
+  
+  /* Inputs and selects - center text */
+  input[type="number"],
+  select {
+    width: 80%;
+    padding: 0.75rem 1rem;
+    border: 2px solid #d1d5db;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #1f2937;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    text-align: center;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05) inset;
+  }
+  
+  input[type="number"]:focus,
+  select:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+    outline: none;
+    transform: scale(1.02);
+  }
+  
+  /* Custom select styling - adjust for centered text */
+  select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%233b82f6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7' /%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 1.25rem;
+    padding-right: 2.5rem;
+    cursor: pointer;
+  }
+  
+  /* Submit button - already centered */
+  button[type="submit"] {
+    background: linear-gradient(to right, #1d4ed8, #3b82f6);
+    color: white;
+    font-weight: 600;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    max-width: 400px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 1rem;
+    margin: 2rem auto 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  button[type="submit"]::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: 0.5s;
+  }
+  
+  button[type="submit"]:hover::before {
+    left: 100%;
+  }
+  
+  button[type="submit"]:hover {
+    background: linear-gradient(to right, #1e40af, #1d4ed8);
+    transform: translateY(-2px);
+    box-shadow: 0 15px 20px -3px rgba(59, 130, 246, 0.4), 0 4px 6px -2px rgba(59, 130, 246, 0.1);
+  }
+  
+  button[type="submit"]:active {
+    background-color: #1e3a8a;
+    transform: translateY(0);
+    box-shadow: 0 5px 10px -3px rgba(59, 130, 246, 0.3);
+  }
+  
+  button[type="submit"]:disabled {
+    background: linear-gradient(to right, #93c5fd, #bfdbfe);
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: 0 5px 10px -3px rgba(59, 130, 246, 0.2);
+  }
+  
+  /* Error message - centered */
+  .bg-red-100 {
+    border-left: 4px solid #ef4444;
+    padding: 1rem 1.25rem;
+    background-color: #fee2e2;
+    color: #b91c1c;
+    font-size: 0.875rem;
+    border-radius: 8px;
+    margin: 2rem auto;
+    text-align: center;
+    max-width: 800px;
+    box-shadow: 0 4px 6px -1px rgba(239, 68, 68, 0.1);
+  }
+  
+  /* Results section - centered */
+  .mt-6 {
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    margin-top: 3rem;
+    padding: 2rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 850px;
+    background: linear-gradient(to bottom, #ffffff, #f8fafc);
+  }
+  
+  .mt-6 h3 {
+    color: #1e40af;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.375rem;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .mt-6 h3:after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #3b82f6, transparent);
+    bottom: 0;
+    left: 20%;
+  }
+  
+  /* AI analysis section - centered */
+  .prose {
+    color: #374151;
+    line-height: 1.7;
+    text-align: center;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  }
+  
+  .prose h1, .prose h2, .prose h3 {
+    text-align: center;
+  }
+  
+  .prose h1 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+    color: #1e40af;
+  }
+  
+  .prose h2 {
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.625rem;
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  .prose h3 {
+    font-size: 1.125rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #374151;
+  }
+  
+  .prose p {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .prose strong {
+    font-weight: 600;
+    color: #111827;
+  }
+  
+  .prose ul {
+    margin-top: 0.75rem;
+    margin-bottom: 1.25rem;
+    padding-left: 0;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    width: auto;
+  }
+  
+  .prose li {
+    margin-bottom: 0.5rem;
+    text-align: center;
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  
+  .prose li:before {
+    content: '•';
+    color: #3b82f6;
+    font-weight: bold;
+    font-size: 1.25rem;
+    position: absolute;
+    left: 0.5rem;
+  }
+  
+  /* Medical disclaimer box - centered */
+  .bg-yellow-50 {
+    background-color: #fffbeb;
+    border: 1px solid #fef3c7;
+    border-left: 4px solid #f59e0b;
+    padding: 1.25rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 6px -1px rgba(245, 158, 11, 0.1);
+  }
+  
+  .bg-yellow-50 p {
+    margin: 0;
+    color: #78350f;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .bg-yellow-50 .font-bold {
+    color: #92400e;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    
+    .diagnostic-page {
+      padding: 1.5rem 1rem;
+    }
+    
+    .diagnostic-page h2 {
+      font-size: 1.5rem;
+    }
+    
+    .grid > div {
+      padding: 1.25rem;
+    }
+  }
+  
+  /* Add some pulsing animation for the "Analyzing..." button state */
+  @keyframes pulse {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.7;
+    }
+  }
+  
+  button[type="submit"]:disabled {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  
+  /* Add some floating animation to form fields on focus */
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  .grid > div:focus-within {
+    animation: float 3s ease-in-out infinite;
+    border-color: #bfdbfe;
+  }
+  
+  /* Add some custom styling for select option fields */
+  select option {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style for the disclaimer and medical notice */
+  .text-sm {
+    font-size: 0.9375rem;
+    text-align: center;
+  }
+  
+  .text-gray-600 {
+    color: #4b5563;
+  }
+  
+  /* Add a subtle hover effect to form fields */
+  input:hover, select:hover {
+    border-color: #93c5fd;
+  }
+  
+  /* Style for special medical values - highlighting abnormal values */
+  .abnormal-value {
+    color: #dc2626;
+    font-weight: 500;
+  }
+  
+  .normal-value {
+    color: #10b981;
+    font-weight: 500;
+  }
+  
+  /* Make sure the form itself is centered in wider screens */
+  .space-y-6 {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    gap: 3rem; /* Add more vertical spacing between form sections */
+  }
+  
+  /* Section separators */
+  .space-y-6 > div:not(:last-child):after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #e2e8f0, transparent);
+    margin: 2rem 0;
+  }
+  
+  /* Focus indicators for accessibility */
+  input:focus, select:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.4);
+  }
+  
+  /* Custom scrollbar for browsers that support it */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #93c5fd;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #60a5fa;
+  }

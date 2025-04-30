@@ -1,0 +1,449 @@
+2025-04-26 02:14:51,983 - INFO - Model loaded successfully
+2025-04-26 02:14:52,039 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-26 02:14:52,039 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-26 02:14:52,055 - INFO -  * Restarting with stat
+2025-04-26 02:14:54,243 - INFO - Model loaded successfully
+2025-04-26 02:14:54,275 - WARNING -  * Debugger is active!
+2025-04-26 02:14:54,283 - INFO -  * Debugger PIN: 442-389-595
+2025-04-26 02:15:47,773 - INFO - Model loaded successfully
+2025-04-26 02:15:47,823 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-26 02:15:47,829 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-26 02:15:47,832 - INFO -  * Restarting with stat
+2025-04-26 02:15:49,967 - INFO - Model loaded successfully
+2025-04-26 02:15:49,983 - WARNING -  * Debugger is active!
+2025-04-26 02:15:49,983 - INFO -  * Debugger PIN: 442-389-595
+2025-04-26 02:16:49,101 - INFO - 127.0.0.1 - - [26/Apr/2025 02:16:49] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:16:49,345 - INFO - Received data: {'age': 1, 'bp': 50, 'sg': 1, 'al': 0, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 70, 'bu': 10, 'sc': 0.4, 'sod': 110, 'pot': 2.5, 'hemo': 3, 'pcv': 9, 'wbcc': 2000, 'rbcc': 2, 'htn': 1, 'dm': 1, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 0}
+2025-04-26 02:16:49,345 - INFO - Making prediction...
+2025-04-26 02:16:49,345 - INFO - Prediction result: Not CKD
+2025-04-26 02:16:49,345 - INFO - 127.0.0.1 - - [26/Apr/2025 02:16:49] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:17:03,776 - INFO - 127.0.0.1 - - [26/Apr/2025 02:17:03] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:17:04,089 - INFO - Received data: {'age': 1, 'bp': 50, 'sg': 1, 'al': 0, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 70, 'bu': 10, 'sc': 0.4, 'sod': 110, 'pot': 2.5, 'hemo': 3, 'pcv': 9, 'wbcc': 2000, 'rbcc': 2, 'htn': 1, 'dm': 1, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 0}
+2025-04-26 02:17:04,089 - INFO - Making prediction...
+2025-04-26 02:17:04,089 - INFO - Prediction result: Not CKD
+2025-04-26 02:17:04,089 - INFO - 127.0.0.1 - - [26/Apr/2025 02:17:04] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:17:04,591 - INFO - Received data: {'age': 1, 'bp': 50, 'sg': 1, 'al': 0, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 70, 'bu': 10, 'sc': 0.4, 'sod': 110, 'pot': 2.5, 'hemo': 3, 'pcv': 9, 'wbcc': 2000, 'rbcc': 2, 'htn': 1, 'dm': 1, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 0}
+2025-04-26 02:17:04,593 - INFO - Making prediction...
+2025-04-26 02:17:04,593 - INFO - Prediction result: Not CKD
+2025-04-26 02:17:04,593 - INFO - 127.0.0.1 - - [26/Apr/2025 02:17:04] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:17:30,087 - INFO - Model loaded successfully
+2025-04-26 02:17:30,131 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-26 02:17:30,131 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-26 02:17:30,131 - INFO -  * Restarting with stat
+2025-04-26 02:17:32,308 - INFO - Model loaded successfully
+2025-04-26 02:17:32,330 - WARNING -  * Debugger is active!
+2025-04-26 02:17:32,336 - INFO -  * Debugger PIN: 442-389-595
+2025-04-26 02:20:09,449 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:09] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:20:09,718 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:20:09,718 - INFO - Making prediction...
+2025-04-26 02:20:09,718 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:09,718 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:09] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:14,845 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:14] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:20:15,141 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:20:15,156 - INFO - Making prediction...
+2025-04-26 02:20:15,156 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:15,156 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:15] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:15,977 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:20:15,977 - INFO - Making prediction...
+2025-04-26 02:20:15,985 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:15,985 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:15] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:16,492 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:20:16,492 - INFO - Making prediction...
+2025-04-26 02:20:16,492 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:16,492 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:16] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:17,501 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:20:17,501 - INFO - Making prediction...
+2025-04-26 02:20:17,504 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:17,504 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:17] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:18,016 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:20:18,016 - INFO - Making prediction...
+2025-04-26 02:20:18,016 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:18,016 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:18] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:27,879 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:27] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:20:28,196 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 0, 'dm': 0, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:28,196 - INFO - Making prediction...
+2025-04-26 02:20:28,196 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:28,196 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:28] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:29,248 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 0, 'dm': 0, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:29,250 - INFO - Making prediction...
+2025-04-26 02:20:29,250 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:29,250 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:29] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:29,745 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 0, 'dm': 0, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:29,745 - INFO - Making prediction...
+2025-04-26 02:20:29,745 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:29,745 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:29] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:29,961 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 0, 'dm': 0, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:29,961 - INFO - Making prediction...
+2025-04-26 02:20:29,961 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:29,961 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:29] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:30,008 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 0, 'dm': 0, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:30,008 - INFO - Making prediction...
+2025-04-26 02:20:30,008 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:30,008 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:30] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:30,437 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 0, 'dm': 0, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:30,437 - INFO - Making prediction...
+2025-04-26 02:20:30,443 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:30,443 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:30] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:30,919 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 0, 'dm': 0, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:30,919 - INFO - Making prediction...
+2025-04-26 02:20:30,919 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:30,919 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:30] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:31,138 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 0, 'dm': 0, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:31,138 - INFO - Making prediction...
+2025-04-26 02:20:31,138 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:31,138 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:31] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:36,466 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:36] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:20:36,780 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:36,780 - INFO - Making prediction...
+2025-04-26 02:20:36,780 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:36,780 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:36] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:36,986 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:36,986 - INFO - Making prediction...
+2025-04-26 02:20:36,986 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:36,986 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:36] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:37,674 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:37,675 - INFO - Making prediction...
+2025-04-26 02:20:37,679 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:37,679 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:37] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:38,177 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:38,177 - INFO - Making prediction...
+2025-04-26 02:20:38,177 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:38,177 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:38] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:38,363 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:38,363 - INFO - Making prediction...
+2025-04-26 02:20:38,363 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:38,363 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:38] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:38,442 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:38,442 - INFO - Making prediction...
+2025-04-26 02:20:38,442 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:38,442 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:38] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:39,553 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:39,553 - INFO - Making prediction...
+2025-04-26 02:20:39,558 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:39,558 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:39] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:40,042 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:40,042 - INFO - Making prediction...
+2025-04-26 02:20:40,042 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:40,042 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:40] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:40,247 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:40,252 - INFO - Making prediction...
+2025-04-26 02:20:40,253 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:40,253 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:40] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:41,112 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:41,112 - INFO - Making prediction...
+2025-04-26 02:20:41,120 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:41,120 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:41] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:41,590 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:41,590 - INFO - Making prediction...
+2025-04-26 02:20:41,590 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:41,590 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:41] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:41,785 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:41] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:20:41,841 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:41,841 - INFO - Making prediction...
+2025-04-26 02:20:41,848 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:41,848 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:41] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:42,763 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:42,765 - INFO - Making prediction...
+2025-04-26 02:20:42,765 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:42,771 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:42] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:43,212 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:43,212 - INFO - Making prediction...
+2025-04-26 02:20:43,212 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:43,212 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:43] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:43,420 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:43,423 - INFO - Making prediction...
+2025-04-26 02:20:43,426 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:43,429 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:43] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:44,241 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:44,241 - INFO - Making prediction...
+2025-04-26 02:20:44,249 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:44,249 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:44] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:44,697 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:44,697 - INFO - Making prediction...
+2025-04-26 02:20:44,697 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:44,697 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:44] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:44,908 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:44,908 - INFO - Making prediction...
+2025-04-26 02:20:44,915 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:44,915 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:44] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:45,607 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:45,622 - INFO - Making prediction...
+2025-04-26 02:20:45,622 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:45,622 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:45] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:20:46,149 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:20:46,149 - INFO - Making prediction...
+2025-04-26 02:20:46,149 - INFO - Prediction result: Not CKD
+2025-04-26 02:20:46,149 - INFO - 127.0.0.1 - - [26/Apr/2025 02:20:46] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:21:14,607 - INFO - 127.0.0.1 - - [26/Apr/2025 02:21:14] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:21:14,919 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 0, 'pc': 0, 'pcc': 0, 'ba': 0, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:21:14,919 - INFO - Making prediction...
+2025-04-26 02:21:14,919 - INFO - Prediction result: Not CKD
+2025-04-26 02:21:14,919 - INFO - 127.0.0.1 - - [26/Apr/2025 02:21:14] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:21:17,704 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 0, 'pc': 0, 'pcc': 0, 'ba': 0, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:21:17,704 - INFO - Making prediction...
+2025-04-26 02:21:17,709 - INFO - Prediction result: Not CKD
+2025-04-26 02:21:17,709 - INFO - 127.0.0.1 - - [26/Apr/2025 02:21:17] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:21:18,198 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 0, 'pc': 0, 'pcc': 0, 'ba': 0, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:21:18,198 - INFO - Making prediction...
+2025-04-26 02:21:18,198 - INFO - Prediction result: Not CKD
+2025-04-26 02:21:18,198 - INFO - 127.0.0.1 - - [26/Apr/2025 02:21:18] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:21:18,399 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 0, 'pc': 0, 'pcc': 0, 'ba': 0, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:21:18,399 - INFO - Making prediction...
+2025-04-26 02:21:18,399 - INFO - Prediction result: Not CKD
+2025-04-26 02:21:18,399 - INFO - 127.0.0.1 - - [26/Apr/2025 02:21:18] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:21:18,464 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 0, 'pc': 0, 'pcc': 0, 'ba': 0, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:21:18,464 - INFO - Making prediction...
+2025-04-26 02:21:18,473 - INFO - Prediction result: Not CKD
+2025-04-26 02:21:18,473 - INFO - 127.0.0.1 - - [26/Apr/2025 02:21:18] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:21:18,612 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 0, 'pc': 0, 'pcc': 0, 'ba': 0, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:21:18,615 - INFO - Making prediction...
+2025-04-26 02:21:18,615 - INFO - Prediction result: Not CKD
+2025-04-26 02:21:18,615 - INFO - 127.0.0.1 - - [26/Apr/2025 02:21:18] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:21:18,786 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 0, 'pc': 0, 'pcc': 0, 'ba': 0, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:21:18,786 - INFO - Making prediction...
+2025-04-26 02:21:18,786 - INFO - Prediction result: Not CKD
+2025-04-26 02:21:18,786 - INFO - 127.0.0.1 - - [26/Apr/2025 02:21:18] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:21:19,701 - INFO - 127.0.0.1 - - [26/Apr/2025 02:21:19] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:21:20,016 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 0, 'pc': 0, 'pcc': 0, 'ba': 0, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:21:20,016 - INFO - Making prediction...
+2025-04-26 02:21:20,016 - INFO - Prediction result: Not CKD
+2025-04-26 02:21:20,016 - INFO - 127.0.0.1 - - [26/Apr/2025 02:21:20] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:21:20,218 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 0, 'pc': 0, 'pcc': 0, 'ba': 0, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:21:20,218 - INFO - Making prediction...
+2025-04-26 02:21:20,218 - INFO - Prediction result: Not CKD
+2025-04-26 02:21:20,218 - INFO - 127.0.0.1 - - [26/Apr/2025 02:21:20] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:28:24,784 - INFO - 127.0.0.1 - - [26/Apr/2025 02:28:24] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:28:25,044 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 0, 'pc': 0, 'pcc': 0, 'ba': 0, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:28:25,044 - INFO - Making prediction...
+2025-04-26 02:28:25,044 - INFO - Prediction result: Not CKD
+2025-04-26 02:28:25,044 - INFO - 127.0.0.1 - - [26/Apr/2025 02:28:25] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:28:28,419 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 0, 'pc': 0, 'pcc': 0, 'ba': 0, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:28:28,419 - INFO - Making prediction...
+2025-04-26 02:28:28,419 - INFO - Prediction result: Not CKD
+2025-04-26 02:28:28,419 - INFO - 127.0.0.1 - - [26/Apr/2025 02:28:28] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:28:29,979 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 0, 'pc': 0, 'pcc': 0, 'ba': 0, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:28:29,979 - INFO - Making prediction...
+2025-04-26 02:28:29,979 - INFO - Prediction result: Not CKD
+2025-04-26 02:28:29,979 - INFO - 127.0.0.1 - - [26/Apr/2025 02:28:29] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:28:44,100 - INFO - 127.0.0.1 - - [26/Apr/2025 02:28:44] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:28:44,415 - INFO - Received data: {'age': 48, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 0, 'pc': 0, 'pcc': 0, 'ba': 0, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 1, 'dm': 1, 'cad': 0, 'appet': 0, 'pe': 0, 'ane': 0}
+2025-04-26 02:28:44,415 - INFO - Making prediction...
+2025-04-26 02:28:44,415 - INFO - Prediction result: Not CKD
+2025-04-26 02:28:44,415 - INFO - 127.0.0.1 - - [26/Apr/2025 02:28:44] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:29:36,738 - INFO - 127.0.0.1 - - [26/Apr/2025 02:29:36] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:29:37,050 - INFO - Received data: {'age': 100, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:29:37,050 - INFO - Making prediction...
+2025-04-26 02:29:37,050 - INFO - Prediction result: Not CKD
+2025-04-26 02:29:37,050 - INFO - 127.0.0.1 - - [26/Apr/2025 02:29:37] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:29:38,521 - INFO - Received data: {'age': 100, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:29:38,521 - INFO - Making prediction...
+2025-04-26 02:29:38,529 - INFO - Prediction result: Not CKD
+2025-04-26 02:29:38,529 - INFO - 127.0.0.1 - - [26/Apr/2025 02:29:38] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:29:42,157 - INFO - 127.0.0.1 - - [26/Apr/2025 02:29:42] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:29:42,413 - INFO - Received data: {'age': 100, 'bp': 80, 'sg': 1.02, 'al': 1, 'su': 0, 'rbc': 1, 'pc': 1, 'pcc': 1, 'ba': 1, 'bgr': 121, 'bu': 36, 'sc': 1.2, 'sod': 110, 'pot': 2.5, 'hemo': 15.4, 'pcv': 44, 'wbcc': 7800, 'rbcc': 5.2, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:29:42,413 - INFO - Making prediction...
+2025-04-26 02:29:42,420 - INFO - Prediction result: Not CKD
+2025-04-26 02:29:42,421 - INFO - 127.0.0.1 - - [26/Apr/2025 02:29:42] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:31:19,222 - INFO - 127.0.0.1 - - [26/Apr/2025 02:31:19] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:31:19,474 - INFO - Received data: {'age': 100, 'bp': 200, 'sg': 1.03, 'al': 5, 'su': 5, 'rbc': 0, 'pc': 0, 'pcc': 1, 'ba': 1, 'bgr': 500, 'bu': 400, 'sc': 49.2, 'sod': 110, 'pot': 7.5, 'hemo': 18, 'pcv': 55, 'wbcc': 30000, 'rbcc': 7, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:31:19,474 - INFO - Making prediction...
+2025-04-26 02:31:19,474 - INFO - Prediction result: Not CKD
+2025-04-26 02:31:19,474 - INFO - 127.0.0.1 - - [26/Apr/2025 02:31:19] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:31:20,566 - INFO - Received data: {'age': 100, 'bp': 200, 'sg': 1.03, 'al': 5, 'su': 5, 'rbc': 0, 'pc': 0, 'pcc': 1, 'ba': 1, 'bgr': 500, 'bu': 400, 'sc': 49.2, 'sod': 110, 'pot': 7.5, 'hemo': 18, 'pcv': 55, 'wbcc': 30000, 'rbcc': 7, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:31:20,566 - INFO - Making prediction...
+2025-04-26 02:31:20,574 - INFO - Prediction result: Not CKD
+2025-04-26 02:31:20,574 - INFO - 127.0.0.1 - - [26/Apr/2025 02:31:20] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:31:25,287 - INFO - 127.0.0.1 - - [26/Apr/2025 02:31:25] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:31:25,553 - INFO - Received data: {'age': 100, 'bp': 200, 'sg': 1.03, 'al': 5, 'su': 5, 'rbc': 0, 'pc': 0, 'pcc': 1, 'ba': 1, 'bgr': 500, 'bu': 400, 'sc': 49.2, 'sod': 110, 'pot': 7.5, 'hemo': 18, 'pcv': 55, 'wbcc': 30000, 'rbcc': 7, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:31:25,553 - INFO - Making prediction...
+2025-04-26 02:31:25,559 - INFO - Prediction result: Not CKD
+2025-04-26 02:31:25,559 - INFO - 127.0.0.1 - - [26/Apr/2025 02:31:25] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:31:27,845 - INFO - Received data: {'age': 100, 'bp': 200, 'sg': 1.03, 'al': 5, 'su': 5, 'rbc': 0, 'pc': 0, 'pcc': 1, 'ba': 1, 'bgr': 500, 'bu': 400, 'sc': 49.2, 'sod': 110, 'pot': 7.5, 'hemo': 18, 'pcv': 55, 'wbcc': 30000, 'rbcc': 7, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:31:27,845 - INFO - Making prediction...
+2025-04-26 02:31:27,853 - INFO - Prediction result: Not CKD
+2025-04-26 02:31:27,853 - INFO - 127.0.0.1 - - [26/Apr/2025 02:31:27] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:31:29,676 - INFO - Received data: {'age': 100, 'bp': 200, 'sg': 1.03, 'al': 5, 'su': 5, 'rbc': 0, 'pc': 0, 'pcc': 1, 'ba': 1, 'bgr': 500, 'bu': 400, 'sc': 49.2, 'sod': 110, 'pot': 7.5, 'hemo': 18, 'pcv': 55, 'wbcc': 30000, 'rbcc': 7, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:31:29,676 - INFO - Making prediction...
+2025-04-26 02:31:29,676 - INFO - Prediction result: Not CKD
+2025-04-26 02:31:29,676 - INFO - 127.0.0.1 - - [26/Apr/2025 02:31:29] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:38:00,308 - ERROR - Error loading model: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+2025-04-26 02:38:00,308 - ERROR - Traceback (most recent call last):
+  File "C:\Users\hp\Downloads\ckdc-ml-comparison\backend\app.py", line 22, in <module>
+    model = pickle.load(file)
+            ^^^^^^^^^^^^^^^^^
+  File "_tree.pyx", line 867, in sklearn.tree._tree.Tree.__setstate__
+  File "_tree.pyx", line 1573, in sklearn.tree._tree._check_node_ndarray
+ValueError: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+
+2025-04-26 02:38:00,359 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-26 02:38:00,360 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-26 02:38:00,360 - INFO -  * Restarting with stat
+2025-04-26 02:38:02,565 - ERROR - Error loading model: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+2025-04-26 02:38:02,565 - ERROR - Traceback (most recent call last):
+  File "C:\Users\hp\Downloads\ckdc-ml-comparison\backend\app.py", line 22, in <module>
+    model = pickle.load(file)
+            ^^^^^^^^^^^^^^^^^
+  File "_tree.pyx", line 867, in sklearn.tree._tree.Tree.__setstate__
+  File "_tree.pyx", line 1573, in sklearn.tree._tree._check_node_ndarray
+ValueError: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+
+2025-04-26 02:38:02,594 - WARNING -  * Debugger is active!
+2025-04-26 02:38:02,594 - INFO -  * Debugger PIN: 442-389-595
+2025-04-26 02:38:38,057 - INFO - 127.0.0.1 - - [26/Apr/2025 02:38:38] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:38:38,315 - INFO - Received data: {'age': 100, 'bp': 200, 'sg': 1.03, 'al': 5, 'su': 5, 'rbc': 0, 'pc': 0, 'pcc': 1, 'ba': 1, 'bgr': 500, 'bu': 400, 'sc': 49.2, 'sod': 110, 'pot': 7.5, 'hemo': 18, 'pcv': 55, 'wbcc': 30000, 'rbcc': 7, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:38:38,315 - INFO - Making prediction...
+2025-04-26 02:38:38,315 - ERROR - Error during prediction: name 'model' is not defined
+2025-04-26 02:38:38,315 - ERROR - Traceback (most recent call last):
+  File "C:\Users\hp\Downloads\ckdc-ml-comparison\backend\app.py", line 79, in predict
+    prediction = model.predict(input_data)[0]
+                 ^^^^^
+NameError: name 'model' is not defined
+
+2025-04-26 02:38:38,315 - INFO - 127.0.0.1 - - [26/Apr/2025 02:38:38] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-26 02:38:45,699 - INFO - 127.0.0.1 - - [26/Apr/2025 02:38:45] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:38:46,011 - INFO - Received data: {'age': 100, 'bp': 200, 'sg': 1.03, 'al': 5, 'su': 5, 'rbc': 0, 'pc': 0, 'pcc': 1, 'ba': 1, 'bgr': 500, 'bu': 400, 'sc': 49.2, 'sod': 110, 'pot': 7.5, 'hemo': 18, 'pcv': 55, 'wbcc': 30000, 'rbcc': 7, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:38:46,011 - INFO - Making prediction...
+2025-04-26 02:38:46,011 - ERROR - Error during prediction: name 'model' is not defined
+2025-04-26 02:38:46,011 - ERROR - Traceback (most recent call last):
+  File "C:\Users\hp\Downloads\ckdc-ml-comparison\backend\app.py", line 79, in predict
+    prediction = model.predict(input_data)[0]
+                 ^^^^^
+NameError: name 'model' is not defined
+
+2025-04-26 02:38:46,011 - INFO - 127.0.0.1 - - [26/Apr/2025 02:38:46] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-26 02:38:47,379 - INFO - Received data: {'age': 100, 'bp': 200, 'sg': 1.03, 'al': 5, 'su': 5, 'rbc': 0, 'pc': 0, 'pcc': 1, 'ba': 1, 'bgr': 500, 'bu': 400, 'sc': 49.2, 'sod': 110, 'pot': 7.5, 'hemo': 18, 'pcv': 55, 'wbcc': 30000, 'rbcc': 7, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:38:47,379 - INFO - Making prediction...
+2025-04-26 02:38:47,379 - ERROR - Error during prediction: name 'model' is not defined
+2025-04-26 02:38:47,379 - ERROR - Traceback (most recent call last):
+  File "C:\Users\hp\Downloads\ckdc-ml-comparison\backend\app.py", line 79, in predict
+    prediction = model.predict(input_data)[0]
+                 ^^^^^
+NameError: name 'model' is not defined
+
+2025-04-26 02:38:47,379 - INFO - 127.0.0.1 - - [26/Apr/2025 02:38:47] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-26 02:40:18,295 - INFO - 127.0.0.1 - - [26/Apr/2025 02:40:18] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:40:18,561 - INFO - Received data: {'age': 100, 'bp': 200, 'sg': 1.03, 'al': 5, 'su': 5, 'rbc': 0, 'pc': 0, 'pcc': 1, 'ba': 1, 'bgr': 500, 'bu': 400, 'sc': 49.2, 'sod': 110, 'pot': 7.5, 'hemo': 18, 'pcv': 55, 'wbcc': 30000, 'rbcc': 7, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:40:18,561 - INFO - Making prediction...
+2025-04-26 02:40:18,561 - ERROR - Error during prediction: name 'model' is not defined
+2025-04-26 02:40:18,561 - ERROR - Traceback (most recent call last):
+  File "C:\Users\hp\Downloads\ckdc-ml-comparison\backend\app.py", line 79, in predict
+    prediction = model.predict(input_data)[0]
+                 ^^^^^
+NameError: name 'model' is not defined
+
+2025-04-26 02:40:18,561 - INFO - 127.0.0.1 - - [26/Apr/2025 02:40:18] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-26 02:40:19,652 - INFO - Received data: {'age': 100, 'bp': 200, 'sg': 1.03, 'al': 5, 'su': 5, 'rbc': 0, 'pc': 0, 'pcc': 1, 'ba': 1, 'bgr': 500, 'bu': 400, 'sc': 49.2, 'sod': 110, 'pot': 7.5, 'hemo': 18, 'pcv': 55, 'wbcc': 30000, 'rbcc': 7, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:40:19,652 - INFO - Making prediction...
+2025-04-26 02:40:19,652 - ERROR - Error during prediction: name 'model' is not defined
+2025-04-26 02:40:19,652 - ERROR - Traceback (most recent call last):
+  File "C:\Users\hp\Downloads\ckdc-ml-comparison\backend\app.py", line 79, in predict
+    prediction = model.predict(input_data)[0]
+                 ^^^^^
+NameError: name 'model' is not defined
+
+2025-04-26 02:40:19,652 - INFO - 127.0.0.1 - - [26/Apr/2025 02:40:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-26 02:40:27,763 - INFO - 127.0.0.1 - - [26/Apr/2025 02:40:27] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:40:28,032 - INFO - Received data: {'age': 100, 'bp': 200, 'sg': 1.03, 'al': 5, 'su': 5, 'rbc': 0, 'pc': 0, 'pcc': 1, 'ba': 1, 'bgr': 500, 'bu': 400, 'sc': 49.2, 'sod': 110, 'pot': 7.5, 'hemo': 18, 'pcv': 55, 'wbcc': 30000, 'rbcc': 7, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:40:28,032 - INFO - Making prediction...
+2025-04-26 02:40:28,032 - ERROR - Error during prediction: name 'model' is not defined
+2025-04-26 02:40:28,032 - ERROR - Traceback (most recent call last):
+  File "C:\Users\hp\Downloads\ckdc-ml-comparison\backend\app.py", line 79, in predict
+    prediction = model.predict(input_data)[0]
+                 ^^^^^
+NameError: name 'model' is not defined
+
+2025-04-26 02:40:28,032 - INFO - 127.0.0.1 - - [26/Apr/2025 02:40:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-26 02:41:36,933 - INFO - Model loaded successfully
+2025-04-26 02:41:36,970 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-26 02:41:36,970 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-26 02:41:36,980 - INFO -  * Restarting with stat
+2025-04-26 02:41:39,267 - INFO - Model loaded successfully
+2025-04-26 02:41:39,287 - WARNING -  * Debugger is active!
+2025-04-26 02:41:39,294 - INFO -  * Debugger PIN: 442-389-595
+2025-04-26 02:41:40,953 - INFO - 127.0.0.1 - - [26/Apr/2025 02:41:40] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:41:41,195 - INFO - Received data: {'age': 100, 'bp': 200, 'sg': 1.03, 'al': 5, 'su': 5, 'rbc': 0, 'pc': 0, 'pcc': 1, 'ba': 1, 'bgr': 500, 'bu': 400, 'sc': 49.2, 'sod': 110, 'pot': 7.5, 'hemo': 18, 'pcv': 55, 'wbcc': 30000, 'rbcc': 7, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:41:41,195 - INFO - Making prediction...
+2025-04-26 02:41:41,195 - INFO - Prediction result: Not CKD
+2025-04-26 02:41:41,195 - INFO - 127.0.0.1 - - [26/Apr/2025 02:41:41] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:42:38,705 - INFO - 127.0.0.1 - - [26/Apr/2025 02:42:38] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:42:39,014 - INFO - Received data: {'age': 100, 'bp': 200, 'sg': 1.03, 'al': 5, 'su': 5, 'rbc': 0, 'pc': 0, 'pcc': 1, 'ba': 1, 'bgr': 500, 'bu': 400, 'sc': 49.2, 'sod': 110, 'pot': 7.5, 'hemo': 18, 'pcv': 55, 'wbcc': 30000, 'rbcc': 7, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:42:39,014 - INFO - Making prediction...
+2025-04-26 02:42:39,014 - INFO - Prediction result: Not CKD
+2025-04-26 02:42:39,014 - INFO - 127.0.0.1 - - [26/Apr/2025 02:42:39] "POST /predict HTTP/1.1" 200 -
+2025-04-26 02:50:37,141 - ERROR - Error loading model: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+2025-04-26 02:50:37,141 - ERROR - Traceback (most recent call last):
+  File "C:\Users\hp\Downloads\ckdc-ml-comparison\backend\app.py", line 22, in <module>
+    model = pickle.load(file)
+            ^^^^^^^^^^^^^^^^^
+  File "_tree.pyx", line 867, in sklearn.tree._tree.Tree.__setstate__
+  File "_tree.pyx", line 1573, in sklearn.tree._tree._check_node_ndarray
+ValueError: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+
+2025-04-26 02:50:37,191 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-26 02:50:37,191 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-26 02:50:37,195 - INFO -  * Restarting with stat
+2025-04-26 02:50:39,380 - ERROR - Error loading model: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+2025-04-26 02:50:39,380 - ERROR - Traceback (most recent call last):
+  File "C:\Users\hp\Downloads\ckdc-ml-comparison\backend\app.py", line 22, in <module>
+    model = pickle.load(file)
+            ^^^^^^^^^^^^^^^^^
+  File "_tree.pyx", line 867, in sklearn.tree._tree.Tree.__setstate__
+  File "_tree.pyx", line 1573, in sklearn.tree._tree._check_node_ndarray
+ValueError: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+
+2025-04-26 02:50:39,415 - WARNING -  * Debugger is active!
+2025-04-26 02:50:39,420 - INFO -  * Debugger PIN: 442-389-595
+2025-04-26 02:50:49,615 - INFO - 127.0.0.1 - - [26/Apr/2025 02:50:49] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:50:49,876 - INFO - Received data: {'age': 100, 'bp': 200, 'sg': 1.03, 'al': 5, 'su': 5, 'rbc': 0, 'pc': 0, 'pcc': 1, 'ba': 1, 'bgr': 500, 'bu': 400, 'sc': 49.2, 'sod': 110, 'pot': 7.5, 'hemo': 18, 'pcv': 55, 'wbcc': 30000, 'rbcc': 7, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:50:49,876 - INFO - Making prediction...
+2025-04-26 02:50:49,876 - ERROR - Error during prediction: name 'model' is not defined
+2025-04-26 02:50:49,876 - ERROR - Traceback (most recent call last):
+  File "C:\Users\hp\Downloads\ckdc-ml-comparison\backend\app.py", line 79, in predict
+    prediction = model.predict(input_data)[0]
+                 ^^^^^
+NameError: name 'model' is not defined
+
+2025-04-26 02:50:49,876 - INFO - 127.0.0.1 - - [26/Apr/2025 02:50:49] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-26 02:50:51,252 - INFO - Received data: {'age': 100, 'bp': 200, 'sg': 1.03, 'al': 5, 'su': 5, 'rbc': 0, 'pc': 0, 'pcc': 1, 'ba': 1, 'bgr': 500, 'bu': 400, 'sc': 49.2, 'sod': 110, 'pot': 7.5, 'hemo': 18, 'pcv': 55, 'wbcc': 30000, 'rbcc': 7, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:50:51,252 - INFO - Making prediction...
+2025-04-26 02:50:51,252 - ERROR - Error during prediction: name 'model' is not defined
+2025-04-26 02:50:51,260 - ERROR - Traceback (most recent call last):
+  File "C:\Users\hp\Downloads\ckdc-ml-comparison\backend\app.py", line 79, in predict
+    prediction = model.predict(input_data)[0]
+                 ^^^^^
+NameError: name 'model' is not defined
+
+2025-04-26 02:50:51,260 - INFO - 127.0.0.1 - - [26/Apr/2025 02:50:51] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-26 02:50:57,270 - INFO - 127.0.0.1 - - [26/Apr/2025 02:50:57] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-26 02:50:57,539 - INFO - Received data: {'age': 100, 'bp': 200, 'sg': 1.03, 'al': 5, 'su': 5, 'rbc': 0, 'pc': 0, 'pcc': 1, 'ba': 1, 'bgr': 500, 'bu': 400, 'sc': 49.2, 'sod': 110, 'pot': 7.5, 'hemo': 18, 'pcv': 55, 'wbcc': 30000, 'rbcc': 7, 'htn': 0, 'dm': 0, 'cad': 1, 'appet': 1, 'pe': 1, 'ane': 1}
+2025-04-26 02:50:57,539 - INFO - Making prediction...
+2025-04-26 02:50:57,542 - ERROR - Error during prediction: name 'model' is not defined
+2025-04-26 02:50:57,542 - ERROR - Traceback (most recent call last):
+  File "C:\Users\hp\Downloads\ckdc-ml-comparison\backend\app.py", line 79, in predict
+    prediction = model.predict(input_data)[0]
+                 ^^^^^
+NameError: name 'model' is not defined
+
+2025-04-26 02:50:57,542 - INFO - 127.0.0.1 - - [26/Apr/2025 02:50:57] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
