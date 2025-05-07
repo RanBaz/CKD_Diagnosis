@@ -4,26 +4,35 @@ services:
   frontend:
     build: ./frontend
     ports:
-      - "3000:80"
+      - "3000:3000"
     depends_on:
       - backend
+    networks:
+      - diabetes-network
 
   backend:
     build: ./backend
     ports:
       - "5000:5000"
     environment:
-      - MONGO_URI=mongodb+srv://ranilbazira22:qUDvXeL1pQWwFvuz@ckdc-ml-comparison.ri037sk.mongodb.net
+      - MONGO_URI=mongodb+srv://ranilbazira22:qUDvXeL1pQWwFvuz@ckdc-ml-comparison.ri037sk.mongodb.net/  # MongoDB URI to connect to the database
     depends_on:
-      - mongo
+      - db
+    networks:
+      - diabetes-network
 
-  mongo:
+  db:
     image: mongo
-    container_name: mongo
+    volumes:
+      - db_data:/data/db
     ports:
       - "27017:27017"
-    volumes:
-      - mongo-data:/data/db
+    networks:
+      - diabetes-network
 
 volumes:
-  mongo-data:
+  db_data:
+
+networks:
+  diabetes-network:
+    driver: bridge
