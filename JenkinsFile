@@ -18,8 +18,9 @@ pipeline {
                 echo 'Building Docker images...'
                 sh '''
                     docker-compose down --remove-orphans
-                    docker-compose pull || true
+                    try { docker-compose pull } catch { Write-Host "docker-compose pull failed, continuing..." }
                     docker-compose build --no-cache
+
                 '''
             }
         }
@@ -56,7 +57,7 @@ pipeline {
         }
         always {
             echo 'Cleaning up dangling images (optional)...'
-            sh 'docker image prune -f || true'
+            sh 'docker image prune -f; if ($LASTEXITCODE -ne 0) { Write-Host "Continuing despite failure" }'
         }
     }
 }
