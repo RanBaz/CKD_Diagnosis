@@ -2,46 +2,61 @@ pipeline {
     agent any
 
     environment {
-        NODE_VERSION = '18.x'
-        MONGODB_URI = credentials('mongodb-uri')
+        COMPOSE_FILE = 'docker-compose.yml'
     }
 
     stages {
-        stage('Setup') {
+        stage('Checkout Code') {
             steps {
-                tool name: 'NodeJS', type: 'jenkins.plugins.nodejs.tools.NodeJSInstallation'
+                echo 'Checking out latest code from main branch...'
+                git branch: 'main', url: 'https://github.com/RanBaz/CKD_Diagnosis.git'
             }
         }
 
-        stage('Backend Build & Test') {
+        stage('Build Docker Images') {
             steps {
-                dir('backend') {
-                    bat 'npm install'
-                    bat 'npm test'
-                }
+                echo 'Building Docker images...'
+                sh '''
+                    docker-compose down --remove-orphans
+                    docker-compose pull || true
+                    docker-compose build --no-cache
+                '''
             }
         }
 
-        stage('Frontend Build & Test') {
+        stage('Run Docker Containers') {
             steps {
-                dir('frontend') {
-                    bat 'npm install'
-                    bat 'npm test'
-                    bat 'npm run build'
-                }
+                echo 'Starting Docker containers...'
+                sh 'docker-compose up -d'
             }
         }
 
-        stage('Deploy') {
+        stage('Show Running Containers') {
             steps {
-                echo 'Deployment stage - Configure based on your hosting platform'
+                echo 'Currently running containers:'
+                sh 'docker ps'
+            }
+        }
+
+        stage('Show Docker Logs') {
+            steps {
+                echo 'Fetching Docker logs...'
+                sh 'docker-compose logs --tail=100'
             }
         }
     }
 
     post {
+        failure {
+            echo 'Pipeline failed. Cleaning up Docker containers...'
+            sh 'docker-compose down'
+        }
+        success {
+            echo 'Pipeline completed successfully!'
+        }
         always {
-            cleanWs()
+            echo 'Cleaning up dangling images (optional)...'
+            sh 'docker image prune -f || true'
         }
     }
 }
