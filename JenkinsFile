@@ -1,0 +1,47 @@
+pipeline {
+    agent any
+
+    environment {
+        NODE_VERSION = '18.x'
+        MONGODB_URI = credentials('mongodb-uri')
+    }
+
+    stages {
+        stage('Setup') {
+            steps {
+                tool name: 'NodeJS', type: 'jenkins.plugins.nodejs.tools.NodeJSInstallation'
+            }
+        }
+
+        stage('Backend Build & Test') {
+            steps {
+                dir('backend') {
+                    bat 'npm install'
+                    bat 'npm test'
+                }
+            }
+        }
+
+        stage('Frontend Build & Test') {
+            steps {
+                dir('frontend') {
+                    bat 'npm install'
+                    bat 'npm test'
+                    bat 'npm run build'
+                }
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                echo 'Deployment stage - Configure based on your hosting platform'
+            }
+        }
+    }
+
+    post {
+        always {
+            cleanWs()
+        }
+    }
+}
